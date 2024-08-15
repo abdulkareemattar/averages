@@ -95,7 +95,7 @@ class TestPage extends StatelessWidget {
                       SizedBox(height: 15),
                       // مربعات معلومات
                       Expanded(
-                        child: GridView.count(
+                        child: GridView.count(crossAxisCount: 2,
                           crossAxisSpacing: 10,
                           mainAxisSpacing: 10,
                           children: [
