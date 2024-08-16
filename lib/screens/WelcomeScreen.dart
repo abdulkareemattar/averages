@@ -5,7 +5,7 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Image.asset('assets/images/my_image.png'), // Assuming your image is called my_image.png
+        child: Image.asset('assets/images/bg.png'),
       ),
     );
   }
